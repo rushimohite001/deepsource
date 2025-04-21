@@ -19,4 +19,3 @@ resource "azurerm_resource_group" "bad_rg" {
   location = "westeurope"           
 }
 
-
