@@ -2,4 +2,8 @@ version = 1
 
 [[analyzers]]
 name = "terraform"
-enabled = true 
+enabled = true
+
+[[analyzers]]
+name = "docker"
+enabled = true
