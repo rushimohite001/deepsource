@@ -14,15 +14,12 @@ provider "azurerm" {
   subscription_id = "1ac2caa4-336e-4daa-b8f1-0fbabe2d4b11"
 }
 
-# resource "azurerm_resource_group" "demo_rg" {
-#   name     = var.resource_group_name
-#   location = var.location
-# }
+resource "azurerm_resource_group" "demo_rg1" {
+   name     = var.resource_group_name
+   location = var.location
+ }
 
-resource "azurerm_resource_group" "test" {
-  name = "test-rg"
-  location = "East-US"
-  tags = "test"
-}
-
-
+resource "azurerm_resource_group" "demo_rg2" {
+   name     = var.resource_group_name
+   location = var.location
+ }
