@@ -19,8 +19,9 @@ provider "azurerm" {
  #  location = var.location
  #}
 
-resource "azurerm_resource_group" "demo_rg" {
+resource "azurerm_resource_group" "  bad_name " {
   count    = 2
   name     = "demo-rg-${count.index + 1}"
   location = var.location
 }
+
